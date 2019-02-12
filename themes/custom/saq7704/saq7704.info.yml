@@ -1,0 +1,32 @@
+name: saq7704
+type: theme
+base theme: classy
+description: 'Australian Commission on Safety & Quality in Healthcare - Communicating for Safety website'
+package: Custom
+core: 8.x
+
+regions:
+  header: 'Header'
+  top_menu: 'Top menu'
+  home_resources: 'Homepage resources section'
+  content_main: 'Main content area'
+  sidebar_right: 'Sidebar Right'
+  footer: 'Footer'
+  search: 'search'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  mpcg: 'Most popular communication guidance'
+  home_feature_blocks: 'Homepage - Right Hand Feature Blocks'
+  homeTab_arrives: 'Home Tab - Arrives'
+  homeTab_receives_care: 'Home Tab - Receives Care'
+  homeTab_transferred: 'Home Tab - Transferred'
+  homeTab_critical_information: 'Home Tab - Critical Information'
+  homeTab_deterioration: 'Home Tab - Deterioration'
+  homeTab_leaves: 'Home Tab - Leaves'
+  homeTab_in_the_community: 'Home Tab - In The Community'
+  content_resources: 'Content area for resources'
+  resource_legend: 'Resource legend area'
+  
+libraries:
+  - saq7704/global-styles
+  - saq7704/global-scripts

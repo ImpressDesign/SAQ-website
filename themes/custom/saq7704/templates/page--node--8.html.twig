@@ -1,0 +1,117 @@
+<div class="layout-container" id="start">
+
+    <!-- START SITE HEADER AREA -->
+	<header role="banner">
+		<div class="published">
+			<p>Published by the Australian Commission on Safety and Quality in Healthcare - <a href="http://www.safetyandquality.gov.au" target="_blank">www.safetyandquality.gov.au</a></p>
+		</div>
+		<div class="headerBlock">
+			<div class="logoBlock">
+                <a href="http://www.safetyandquality.gov.au" target="_blank">
+				    <img src="/themes/custom/saq7704/images/logo.jpg" alt="Australian Commission on Safety and Quality in Health Care" />
+                </a>
+			</div>
+			<div class="titleBlock">
+                <p><a href="/home">Communicating for Safety resource portal</a></p>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+		<div class="navButton-wrapper">
+			<div class="navButton-content">
+				<button id="openNav">MENU</button><button id="closeNav">CLOSE</button>
+			</div>
+		</div>
+		<nav role="navigation" class="navBlock">
+			{{ page.top_menu }}
+		</nav>
+		<div class="coreSkills">
+			<div class="coreSkills-content">
+				<p>Core skills for communicating for safety</p>
+			</div>
+		</div>
+		<div class="headerFeatures-wrapper">
+			<div class="headerFeatures">
+				<a class="hf-Block" href="/communicating-with-patients-and-colleagues">
+					<img class="hf-image" src="/themes/custom/saq7704/images/communication.png" aria-hidden="true" alt="" />
+					<p>Communicating <span>with patients and colleagues</span></p>
+					<div style="clear:both"></div>
+				</a>
+				<a class="hf-Block" href="/documenting-information">
+					<img class="hf-image" src="/themes/custom/saq7704/images/documenting.png" aria-hidden="true" alt="" />
+					<p>Documenting <span>information</span></p>
+					<div style="clear:both"></div>
+				</a>
+				<div class="hf-Block searchBlock">
+					<img class="searchIcon" src="/themes/custom/saq7704/images/icon_search.png" alt="" aria-hidden="true" />
+					{{ page.search }}
+					<div style="clear:both"></div>
+				</div>
+			</div>
+		</div>
+	</header>
+    
+    	<!-- START MAIN CONTENT AREA -->
+	<main role="main">
+        
+        <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+		
+		<div class="twoCol-wrapper">
+			<div class="twoCol-content">
+				
+				<!-- START LEFT CONTENT AREA -->
+				<div class="twoCol-left">
+                    {{ page.content_main }}
+                    {{ page.resource_legend }}
+                    {{ page.content_resources }}
+				</div>
+				<!-- END LEFT CONTENT AREA -->
+			</div>
+		</div>
+	</main>
+	<!-- END MAIN CONTENT AREA -->
+
+
+  <!-- START SITE FOOTER AREA -->
+	<footer role="contentinfo" class="footerWrapper">
+		<div class="footerBlock-wrapper">
+            <div class="footerBlock">
+				<h2>Find us</h2>
+				<p>T: +61 2 9126 3600 <br />
+					F: +61 2 9126 3613 <br />
+					E: <a href="mailto:mail@safetyandquality.gov.au">mail@safetyandquality.gov.au</a>
+				</p>
+				<p>GPO Box 5480, Sydney NSW 2001</p>
+			</div>
+			<div class="footerBlock">
+				<h2>Contact</h2>
+				<p>For further information please contact <a href="mailto:comms.forsafety@health.gov.au">comms.forsafety@health.gov.au</a></p>
+			</div>
+			<div class="footerBlock">
+				<h2>Missing information</h2>
+  				<p>Seen a missing/broken link? Please contact <a href="mailto:comms.forsafety@health.gov.au">comms.forsafety@health.gov.au</a></p>
+			</div>
+		</div>
+			<div class="footerNav-wrapper">
+                <div class="footerNav-left">
+                    <div class="disclaimer">
+                        <p><strong>Disclaimer:</strong></p>
+                        <p>All the material published on the Australian Commission on Safety and Quality in Health Care’s Communicating for Safety resource portal is for information purposes only. The material contained on this site may include the views or recommendations of third parties, and does not necessarily reflect the views of the Commonwealth of Australia, or indicate a commitment to a particular course of action.</p>
+                        <p>This site may contain references to other sites and these are provided for convenience only and should not be construed as an endorsement by the Commonwealth of Australia; conversely omissions should not be construed as non-endorsement.</p>
+                        <p>The Commonwealth of Australia does not warrant or represent that the information contained on this site is accurate, current or complete. Users should exercise their own independent skill or judgement or seek professional advice before relying on it.</p>
+                        <p>The Commonwealth of Australia does not accept any legal liability or responsibility for any injury, loss or damage incurred by the use of, or reliance on, or interpretation of, the information contained on this site.</p>
+                        {{ page.footer }}
+                    </div>
+                    <p>&copy; Copyright {{ 'now'|date('Y') }} ACSQHC. All rights reserved.</p>
+                </div>
+			<div style="clear:both"></div>
+		</div>
+	</footer>
+	<!-- END SITE FOOTER AREA -->
+    
+    <!-- BACK TO TOP -->
+    <div id="back2top">
+	   <a href="#start">BACK TO TOP</a>
+    </div>
+    <!-- END BACK TO TOP -->
+
+</div>{# /.layout-container #}

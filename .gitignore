@@ -1,0 +1,6 @@
+/tmp
+/sites/default/**/files
+/sites/*/files
+/sites/*/private
+/sites/default/settings.php
+

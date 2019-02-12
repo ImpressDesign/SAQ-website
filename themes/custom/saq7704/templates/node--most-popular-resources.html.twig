@@ -1,0 +1,17 @@
+{{ attach_library('classy/node') }}
+<article{{ attributes.addClass(classes) }}>
+    <article class="resourcePage-wrapper">
+        <div class="resourceTitle">
+            {{ title_prefix }}
+            {% if label %}
+            <h2 class="noTopMargin"{{ title_attributes }}>{{ label }}</h2>
+            {% endif %}
+            {{ title_suffix }}
+        </div>
+        <div class="resourceContent">
+            {{ content }}
+        </div>
+        <div style="clear: both;"></div>
+    </article>
+
+</article>
