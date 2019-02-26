@@ -3,4 +3,7 @@
 /sites/*/files
 /sites/*/private
 /sites/default/settings.php
-
+/.htaccess
+/sites/SAQ-website.dd
+/sites/sites.php
+/.DS_Store
